@@ -27,7 +27,7 @@ Clone this repo and run ```stitch-counter``` from the command line. You will be 
 Stitchcounter: useful tool to help knitting and crocheting
 Options:
     1 Calculate stitches from original gauge
-    2 Calculate stiches from dimensions
+    2 Calculate stitches from dimensions
     3 Quit
 Pick your option:
 ```
