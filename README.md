@@ -13,6 +13,7 @@ This tool needs the [Java Runtime Environment](https://en.wikipedia.org/wiki/JRE
 Clone this repo and run ```stitch-counter``` from the command line. You will be presented with two options:
 - Calculate stitches from original gauge
 - Calculate stitches from dimensions
+
 Pick your option and follow the instructions.
 
 ## License
