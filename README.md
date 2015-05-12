@@ -7,7 +7,12 @@ It is a porting in Clojure of the same program I wrote in C: [stitchcounter.c](h
 I created the executable using [lein-bin](https://github.com/Raynes/lein-bin).
 
 ## Prerequisites
-This tool needs the [Java Runtime Environment](https://en.wikipedia.org/wiki/JRE) to run. Download and install the correct JRE for your OS.
+This tool needs the Java Runtime Environment to run. Download and install the correct JRE for your OS.
+
+Check everything is working with the command:
+```
+java -version
+```
 
 ## Usage
 Clone this repo and run ```stitch-counter``` from the command line. You will be presented with two options:
