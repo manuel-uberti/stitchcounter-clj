@@ -42,7 +42,7 @@
   (println "Stitchcounter: useful tool to help knitting and crocheting")
   (println "Options:")
   (println "\t1 Calculate stitches from original gauge")
-  (println "\t2 Calculate stiches from dimensions")
+  (println "\t2 Calculate stitches from dimensions")
   (println "\t3 Quit")
   (let [input (get-input "Pick your option:")]
     (cond
