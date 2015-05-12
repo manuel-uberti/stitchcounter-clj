@@ -22,7 +22,16 @@ OpenJDK Server VM (build 25.45-b02, mixed mode)
 ```
 
 ## Usage
-Clone this repo and run ```stitch-counter``` from the command line. You will be presented with the following prompt:
+Clone this repo:
+```
+git clone https://github.com/manuel-uberti/stitchcounter-clj.git
+```
+Run ```stitch-counter``` from the command line:
+```
+cd stitchcounter-clj
+./stitch-counter
+```
+You will be presented with the following prompt:
 ```
 Stitchcounter: useful tool to help knitting and crocheting
 Options:
