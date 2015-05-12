@@ -13,12 +13,24 @@ Check everything is working with the command:
 ```
 java -version
 ```
+For instance, this is the output on my machine:
+```
+java -version
+openjdk version "1.8.0_45-internal"
+OpenJDK Runtime Environment (build 1.8.0_45-internal-b14)
+OpenJDK Server VM (build 25.45-b02, mixed mode)
+```
 
 ## Usage
-Clone this repo and run ```stitch-counter``` from the command line. You will be presented with two options:
-- Calculate stitches from original gauge
-- Calculate stitches from dimensions
-
+Clone this repo and run ```stitch-counter``` from the command line. You will be presented with the following prompt:
+```
+Stitchcounter: useful tool to help knitting and crocheting
+Options:
+    1 Calculate stitches from original gauge
+    2 Calculate stiches from dimensions
+    3 Quit
+Pick your option:
+```
 Pick your option and follow the instructions.
 
 ## License
