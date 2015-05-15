@@ -32,7 +32,8 @@ $ cd stitchcounter-clj
 $ ./stitch-counter
 ```
 You will be presented with the following prompt:
-```
+```console
+$./stitch-counter
 Stitchcounter: useful tool to help knitting and crocheting
 Options:
     1 Calculate stitches from original gauge
