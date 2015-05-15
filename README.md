@@ -10,12 +10,12 @@ I created the executable using [lein-bin](https://github.com/Raynes/lein-bin).
 This tool needs the Java Runtime Environment to run. Download and install the correct JRE for your OS.
 
 Check everything is working with the command:
-```
-java -version
+```console
+$ java -version
 ```
 For instance, this is the output on my machine:
-```
-java -version
+```console
+$ java -version
 openjdk version "1.8.0_45-internal"
 OpenJDK Runtime Environment (build 1.8.0_45-internal-b14)
 OpenJDK Server VM (build 25.45-b02, mixed mode)
@@ -23,13 +23,13 @@ OpenJDK Server VM (build 25.45-b02, mixed mode)
 
 ## Usage
 Clone this repo:
-```
-git clone https://github.com/manuel-uberti/stitchcounter-clj.git
+```console
+$ git clone https://github.com/manuel-uberti/stitchcounter-clj.git
 ```
 Run ```stitch-counter``` from the command line:
-```
-cd stitchcounter-clj
-./stitch-counter
+```console
+$ cd stitchcounter-clj
+$ ./stitch-counter
 ```
 You will be presented with the following prompt:
 ```
