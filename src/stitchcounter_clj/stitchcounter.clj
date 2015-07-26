@@ -17,11 +17,11 @@
 
 (defn option-1 []
   (let [orows (get-number
-               "Enter the number of rows in the original gauge:")
+               "Enter the number of rows in the original gauge (4 inches swatch):")
         osts (get-number
-              "Enter the number of stitches of the original gauge:")
-        rows (get-number "Enter the number of rows in your gauge:")
-        sts (get-number "Enter the number of stitches in your gauge:")
+              "Enter the number of stitches of the original gauge (4 inches swatch):")
+        rows (get-number "Enter the number of rows in your gauge (4 inches swatch):")
+        sts (get-number "Enter the number of stitches in your gauge (4 inches swatch):")
         ovalr (get-number "Enter the total rows of the original project:")
         resr (float (/ (* rows ovalr) orows))
         ovals (get-number "Enter the stitches to CO in the project:")
