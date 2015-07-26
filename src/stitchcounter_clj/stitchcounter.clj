@@ -20,12 +20,12 @@
                "Enter the number of rows in the original gauge:")
         osts (get-number
               "Enter the number of stitches of the original gauge:")
-        rows (get-number "Enter the number of your rows:")
-        sts (get-number "Enter the number of your stitches:")
-        ovalr (get-number "Enter the rows of the original project:")
+        rows (get-number "Enter the number of rows in your gauge:")
+        sts (get-number "Enter the number of stitches in your gauge:")
+        ovalr (get-number "Enter the total rows of the original project:")
         resr (float (/ (* rows ovalr) orows))
-        ovals (get-number "Enter the stitches of the original project:")
-        ress (float (/ (* sts ovalr) osts))]
+        ovals (get-number "Enter the stitches to CO in the project:")
+        ress (float (/ (* sts ovals) osts))]
     (println "Final rows:" resr "/ Final stitches:" ress)))
 
 (defn option-2 []
